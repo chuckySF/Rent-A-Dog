@@ -77,27 +77,27 @@ Firebase to store user, dog, and rental data. Facebook SDK to allow Facebook sig
   * Create Dog VC
   * Dog Profile VC
  
-* Other Classes
+* Other Classes:
   * Auth service manager: to handle user authentication
   * Firebase service manager: to metadata on user, dog, and rental transaction data
   * Storage service manager: to store images of user and dog profile images
   * Payment service manager: to securely handle credit card transaction payments and to handle payments to dog owners
 
 #### Data models
-* Dog class:
+* Dog Class:
   * Name
   * Breed 
   * Time availability (start date, end date)
   * Rental transaction
  
-* User class:
+* User Class:
   * Name 
   * isOwner?
   * Dogs available for rental
   * Dogs rented 
   * Rental transaction
  
-* Rental transaction class
+* Rental Transaction Class:
   * Dog
   * User (owner)
   * User (renter)
@@ -108,17 +108,16 @@ Firebase to store user, dog, and rental data. Facebook SDK to allow Facebook sig
   * Location: longitude, latitude  
   * Dog 
   * User 
- 
- 
 
 [Back to top ^](#)
 
 ---
 
 ### MVP Milestones
-[The overall milestones of first usable build, core features, and polish are just suggestions, plan to finish earlier if possible. The last 20% of work tends to take about as much time as the first 80% so do not slack off on your milestones!]
- 
 
+
+Setup backend
+ 
 
 #### Week 1
 _planing your app_
