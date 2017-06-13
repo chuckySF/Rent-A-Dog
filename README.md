@@ -61,10 +61,10 @@ Firebase to store user, dog, and rental data. Facebook SDK to allow Facebook sig
 
 #### Views, View Controllers, and other Classes
 * Views
-Dog table view cell 
-Map view
-Calendar view 
-Profile avatar image view
+  * Dog table view cell 
+  * Map view
+  * Calendar view 
+  * Profile avatar image view
  
 * View Controllers:
   * Login VC
@@ -78,10 +78,10 @@ Profile avatar image view
   * Dog Profile VC
  
 * Other Classes
-Auth service manager: to handle user authentication
-Firebase service manager: to metadata on user, dog, and rental transaction data
-Storage service manager: to store images of user and dog profile images
-Payment service manager: to securely handle credit card transaction payments and to handle payments to dog owners
+  * Auth service manager: to handle user authentication
+  * Firebase service manager: to metadata on user, dog, and rental transaction data
+  * Storage service manager: to store images of user and dog profile images
+  * Payment service manager: to securely handle credit card transaction payments and to handle payments to dog owners
 
 #### Data models
 * [list all Parse data models your app will need]
@@ -136,7 +136,7 @@ _finishing a usable build_
 
 #### Week 4
 * Query all users with available dogs in the area near you limited by distance.
-*
+*Populate tableview and map view with
 
 #### Week 5
 _starting the polish_
@@ -147,4 +147,4 @@ _submitting to the App Store_
 * Submit to the App Store and prepare for the pitch and demo
 
 [Back to top ^](#)
- 
+
