@@ -1,4 +1,5 @@
-# Rent-A-Dog
+# AirBud
+ 
 ## Table of Contents
   * [App Design](#app-design)
     * [Objective](#objective)
@@ -130,10 +131,10 @@ _finishing a usable build_
 * Build schedule availability widget.
 * Add Dog schedule-availability widget to add Dog screen.
 #### Week 4
-* Add User schedule-availability widget to on app sign in
-* Add User schedule-availability widget to nav bar on home
+* Add User schedule-availability modal to home screen.
+*Display modal on sign in and nav button edit schedule click
 * Query all Users with schedule-available dogs in the area near you limited by distance
-** Store all relevant Dogs in the tab bar controller
+* Store all relevant Dogs in the tab bar controller
 
 #### Week 5
 _starting the polish_
@@ -144,6 +145,6 @@ _submitting to the App Store_
 * Polish (Unit testing, Flight)
 * Submit to the App Store and prepare for the pitch and demo
  
-![Flow Chart](http://i.imgur.com/gj6VitG.png)
+![Flow Chart](http://i.imgur.com/OOMyiUY.jpg)
 
 [Back to top ^](#)
