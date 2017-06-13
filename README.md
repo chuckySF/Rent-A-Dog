@@ -127,22 +127,23 @@ _finishing a usable build_
 
 #### Week 3
 * Build add Dog screen and associate each Dog created with User in realtime db.
-* Add schedule availability intervals to the add dog screen, redflect in db.
+* Build schedule availability widget.
+* Add Dog schedule-availability widget to add Dog screen.
 #### Week 4
-* Add schedule availability screen to post auth / pre home.
-* Query all Users with available dogs in the area near you limited by distance
+* Add User schedule-availability widget to on app sign in
+* Add User schedule-availability widget to nav bar on home
+* Query all Users with schedule-available dogs in the area near you limited by distance
+** Store all relevant Dogs in the tab bar controller
 
 #### Week 5
 _starting the polish_
-*implement tableview and map view with relevant Dogs from network helper singleton
-* Polish the app and add finishing touches
+*implement tableview and map view with relevant Dogs stored in tab bar controller.
 
 #### Week 6
 _submitting to the App Store_
-* Polish
+* Polish (Unit testing, Flight)
 * Submit to the App Store and prepare for the pitch and demo
  
 ![Flow Chart](http://i.imgur.com/gj6VitG.png)
 
 [Back to top ^](#)
-
