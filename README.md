@@ -60,7 +60,7 @@ Add dogs to the user profile to rent out
 Firebase to store user, dog, and rental data. Facebook SDK to allow Facebook sign in through Firebase. AlamoFire (maybe?) for making network requests.
 
 #### Views, View Controllers, and other Classes
-* Views
+* Views:
   * Dog table view cell 
   * Map view
   * Calendar view 
@@ -84,31 +84,30 @@ Firebase to store user, dog, and rental data. Facebook SDK to allow Facebook sig
   * Payment service manager: to securely handle credit card transaction payments and to handle payments to dog owners
 
 #### Data models
-* [list all Parse data models your app will need]
-Dog class
-Name
-Breed 
-Time availability (start date, end date)
-Rental transaction
+* Dog class:
+  * Name
+  * Breed 
+  * Time availability (start date, end date)
+  * Rental transaction
  
-User class
-Name 
-isOwner?
-Dogs available for rental
-Dogs rented 
-Rental transaction
+* User class:
+  * Name 
+  * isOwner?
+  * Dogs available for rental
+  * Dogs rented 
+  * Rental transaction
  
-Rental transaction class
-Dog
-User (owner)
-User (renter)
-Cost 
-Time availability (start date, end date)
+* Rental transaction class
+  * Dog
+  * User (owner)
+  * User (renter)
+  * Cost 
+  * Time availability (start date, end date)
  
-Map location class
-Location: longitude, latitude  
-Dog 
-User 
+* Map location class
+  * Location: longitude, latitude  
+  * Dog 
+  * User 
  
  
 
@@ -135,8 +134,8 @@ _finishing a usable build_
 * Build add Dog screen and associate each Dog created with User in realtime db
 
 #### Week 4
-* Query all users with available dogs in the area near you limited by distance.
-*Populate tableview and map view with
+* Query all Users with available dogs in the area near you limited by distance.
+*Populate tableview and map view with relevant Dogs
 
 #### Week 5
 _starting the polish_
