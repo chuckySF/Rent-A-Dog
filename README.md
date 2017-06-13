@@ -1,5 +1,4 @@
 # Rent-A-Dog
-
 ## Table of Contents
   * [App Design](#app-design)
     * [Objective](#objective)
@@ -22,17 +21,15 @@
 ### App Design
 
 #### Objective
-[explain the goal of the app]
  
 Allow users to search around their areas to allow them to rent dogs for specific amount of days. Users also have options to allow requirements for caring and what they can and can’t do with their dog, such as walking them outside or giving them showers.
 
 #### Audience
-[who is this app targeting?]
- 
+
+
 The app is targeted for people who are animal lovers, but more specifically, lovers of dogs. The age group might range from kids to full grown adults who might need company. The income group will range to people who can afford at least $10 a day in rent expense to even more. We’re trying to be inclusive of everybody. Not everyone can buy a dog, but they could rent a dog to know how it feels like. The app can be used any time but pickup and drop off ranges are determined by the owner.
 
 #### Experience
-[how will your users interact with this app?]
  
 As a Rent-A-Dog user, I want to be able to quickly see pictures of dogs and rent them out for company. 
  
@@ -72,15 +69,15 @@ Calendar view
 Profile avatar image view
  
 * View Controllers
-1. Login VC
-2. Main tab bar VC
-3. Dog list VC
-4. Map view VC
-5. Scheduler VC
-6. Payment VC
-7. User Profile VC
-8. Create Dog VC
-9. Dog Profile VC
+Login VC
+Main tab bar VC
+Dog list VC
+Map view VC
+Scheduler VC
+Payment VC
+User Profile VC
+Create Dog VC
+Dog Profile VC
  
 * Other Classes
 Auth service manager
@@ -94,14 +91,20 @@ Dog class
 Name
 Breed 
 Time availability 
+Rental transaction
  
 User class
 Name 
 Dogs available for rental
 Dogs rented 
-Rental 
+Rental transaction
  
 Rental transaction
+Dog
+User (renter)
+User (rentee)
+Cost 
+Time availability 
  
 Map location class
 Location: longitude, latitude  
@@ -122,11 +125,12 @@ User
 #### Week 1
 _planing your app_
 * Create the Auth and Sign up with FirebaseUI
-* Add Container view controllers (tab bar embeded in nav
+* Add Container view controllers (tab bar embedded in nav)
 
 #### Week 2
 _finishing a usable build_
-* User profile and let user to edit the profile and create doggy profiles 
+* Design and built User Profile header
+* Add a table 
 
 #### Week 3
 * Populate the database with user and dog profiles.s
@@ -145,4 +149,3 @@ _submitting to the App Store_
 [Back to top ^](#)
  
 
- 
