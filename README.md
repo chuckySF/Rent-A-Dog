@@ -66,9 +66,9 @@ Map view
 Calendar view 
 Profile avatar image view
  
-* View Controllers
-Login VC
-Main tab bar VC
+* View Controllers:
+  *Login VC
+  *Main tab bar VC
 Dog list VC
 Map view VC
 Scheduler VC
@@ -129,13 +129,14 @@ _planing your app_
 #### Week 2
 _finishing a usable build_
 * Design and built User Profile header
-* Add a tableView of [Dog] to the bottom portion of the layout
+* Add a tableView of [Dog] to the bottom portion of the user profile screen
 
 #### Week 3
 * Build add Dog screen and associate with User in realtime db
 
 #### Week 4
-* Pull all dogs queried by distance 
+* Pull all dogs queried by distance with a max distance 
+*
 
 #### Week 5
 _starting the polish_
