@@ -129,8 +129,7 @@ _finishing a usable build_
 * Build add Dog screen and associate each Dog created with User in realtime db.
 * Add schedule availability intervals to the add dog screen, redflect in db.
 #### Week 4
-* Query all Users with available dogs in the area near you limited by distance.
-*Populate tableview and map view with relevant Dogs
+* Add schedule availability screen to post auth / pre home.
 
 #### Week 5
 _starting the polish_
@@ -140,7 +139,7 @@ _starting the polish_
 _submitting to the App Store_
 * Submit to the App Store and prepare for the pitch and demo
  
-[Flow Chart](http://imgur.com/gj6VitG)
+![Flow Chart](http://imgur.com/gj6VitG?raw=true)
 
 [Back to top ^](#)
 
