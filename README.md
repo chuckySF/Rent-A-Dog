@@ -66,16 +66,16 @@ Map view
 Calendar view 
 Profile avatar image view
  
-  * View Controllers:
-    *Login VC
-    *Main tab bar VC
-Dog list VC
-Map view VC
-Scheduler VC
-Payment VC
-User Profile VC
-Create Dog VC
-Dog Profile VC
+* View Controllers:
+  * Login VC
+  * Main tab bar VC
+  * Dog list VC
+  * Map view VC
+  * Scheduler VC
+  * Payment VC
+  * User Profile VC
+  * Create Dog VC
+  * Dog Profile VC
  
 * Other Classes
 Auth service manager: to handle user authentication
@@ -135,7 +135,7 @@ _finishing a usable build_
 * Build add Dog screen and associate each Dog created with User in realtime db
 
 #### Week 4
-* Pull all dogs queried by distance with a max distance 
+* Query all users with available dogs in the area near you limited by distance.
 *
 
 #### Week 5
