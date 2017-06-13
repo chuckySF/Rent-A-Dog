@@ -134,7 +134,7 @@ _finishing a usable build_
 
 #### Week 5
 _starting the polish_
-*implement tableview and map view with relevant Dogs
+*implement tableview and map view with relevant Dogs from network helper singleton
 * Polish the app and add finishing touches
 
 #### Week 6
@@ -142,7 +142,7 @@ _submitting to the App Store_
 * Polish
 * Submit to the App Store and prepare for the pitch and demo
  
-![Flow Chart](http://imgur.com/gj6VitG)
+![Flow Chart](http://i.imgur.com/gj6VitG.png)
 
 [Back to top ^](#)
 
