@@ -130,16 +130,19 @@ _finishing a usable build_
 * Add schedule availability intervals to the add dog screen, redflect in db.
 #### Week 4
 * Add schedule availability screen to post auth / pre home.
+* Query all Users with available dogs in the area near you limited by distance
 
 #### Week 5
 _starting the polish_
+*implement tableview and map view with relevant Dogs
 * Polish the app and add finishing touches
 
 #### Week 6
 _submitting to the App Store_
+* Polish
 * Submit to the App Store and prepare for the pitch and demo
  
-![Flow Chart](http://imgur.com/gj6VitG?raw=true)
+![Flow Chart](http://imgur.com/gj6VitG)
 
 [Back to top ^](#)
 
