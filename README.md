@@ -42,7 +42,6 @@ Apps with similar looks: AirBnb, Lyft, and Uber.
 ### Technical
 
 #### Screens
-* [list the different screens used in the app]
 
 
 Sign up and login screen
@@ -57,9 +56,8 @@ Add dogs to the user profile to rent out
  
 
 #### External services
-* [list which APIs or external services will your app use?]
  
-Firebase database to store user, dog, and rental data.
+Firebase to store user, dog, and rental data. Facebook SDK to allow Facebook sign in through Firebase. AlamoFire (maybe?) for making network requests.
 
 #### Views, View Controllers, and other Classes
 * Views
@@ -80,31 +78,32 @@ Create Dog VC
 Dog Profile VC
  
 * Other Classes
-Auth service manager
-Firebase service manager 
-Storage service manager
-Payment service manager
+Auth service manager: to handle user authentication
+Firebase service manager: to metadata on user, dog, and rental transaction data
+Storage service manager: to store images of user and dog profile images
+Payment service manager: to securely handle credit card transaction payments and to handle payments to dog owners
 
 #### Data models
 * [list all Parse data models your app will need]
 Dog class
 Name
 Breed 
-Time availability 
+Time availability (start date, end date)
 Rental transaction
  
 User class
 Name 
+isOwner?
 Dogs available for rental
 Dogs rented 
 Rental transaction
  
-Rental transaction
+Rental transaction class
 Dog
+User (owner)
 User (renter)
-User (rentee)
 Cost 
-Time availability 
+Time availability (start date, end date)
  
 Map location class
 Location: longitude, latitude  
@@ -130,13 +129,13 @@ _planing your app_
 #### Week 2
 _finishing a usable build_
 * Design and built User Profile header
-* Add a table 
+* Add a tableView of [Dog] to the bottom portion of the layout
 
 #### Week 3
-* Populate the database with user and dog profiles.s
+* Build add Dog screen and associate with User in realtime db
 
 #### Week 4
-* Create the UITableView of dogs nearby and allow user to request a dog walker.
+* Pull all dogs queried by distance 
 
 #### Week 5
 _starting the polish_
@@ -148,4 +147,3 @@ _submitting to the App Store_
 
 [Back to top ^](#)
  
-
