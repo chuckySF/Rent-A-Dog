@@ -115,10 +115,6 @@ Firebase to store user, dog, and rental data. Facebook SDK to allow Facebook sig
 
 ### MVP Milestones
 
-
-Setup backend
- 
-
 #### Week 1
 _planing your app_
 * Create the Auth and Sign up with FirebaseUI
@@ -130,8 +126,8 @@ _finishing a usable build_
 * Add a tableView of [Dog] to the bottom portion of the user profile screen
 
 #### Week 3
-* Build add Dog screen and associate each Dog created with User in realtime db
-
+* Build add Dog screen and associate each Dog created with User in realtime db.
+* Add schedule availability intervals to the add dog screen, redflect in db.
 #### Week 4
 * Query all Users with available dogs in the area near you limited by distance.
 *Populate tableview and map view with relevant Dogs
@@ -143,6 +139,8 @@ _starting the polish_
 #### Week 6
 _submitting to the App Store_
 * Submit to the App Store and prepare for the pitch and demo
+ 
+[Flow Chart](http://imgur.com/gj6VitG)
 
 [Back to top ^](#)
 
